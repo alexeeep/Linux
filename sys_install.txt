@@ -1,0 +1,11 @@
+soft ware:
+#  暂时的安装软件
+1.Manjaro
+2.i3wm
+3.alacritty
+4.fish
+5.variey
+6.picom
+7.fcitx
+8.code
+9.Source Code Pro 
