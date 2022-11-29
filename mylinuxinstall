@@ -1,0 +1,39 @@
+安装记录：
+1.切换镜像源
+nana /etc/pacman.conf
+[archlinuxcn]
+SigLevel = Never
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+
+2.sudo pacman-mirrors -c China
+
+3.sudo pacman -Syyu
+
+4.sudo nano /etc/pacman.conf
+Coler 取消注释
+sudu pacman -Syy
+
+屏幕显示 crieenkey 设置开机启动
+
+5、shell  fish
+chsh -s echo 'which fish'
+
+6、终端 alacritty
+在"/config/i3/config"i3配置文件,替换掉i3-sensibale-terminal
+7.编辑".config/alacritty/alacritty.yml"alacritty配置文件
+（若没有配置文件cd ~/.config mkdir alacritty
+cp /usr/share/doc/alacritty/alacritty.yml ./alacritty.yml）
+注意：此时你打开终端alacritty可能会出现终端字体重叠现象，所以需要更改字体，个人建议将字体monospace更改为Source Code Pro，将文件中的font中的family改为Source Code Pro，将背景不透明度改为你自己喜欢的值
+8.bar 为底部状态栏
+9.添加new_window 1pixel 无边框
+igas等
+
+软件列表：
+1.alacritty
+2.fish
+3.vareity
+4.feh
+5.picom
+6.fcitx
+
+alias sudo "sudo -E" # sudo -E 为sudo
